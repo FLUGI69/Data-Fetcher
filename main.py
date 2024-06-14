@@ -85,7 +85,7 @@ class DataFrame:
         
         wedges, _ = plt.pie(sizes, labels=labels, startangle=140, wedgeprops={"edgecolor": "black"})
         
-        plt.title("Pie chart divided into 3-month periods showing negative percentage changes")
+        plt.title(f"Pie chart divided into 3-month periods showing negative percentage changes: {self.ticker}")
         
         plt.axis("equal")
         
